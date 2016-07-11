@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = ssh://git@stash.apathystudios.com:7999/swgnxt/default-configs.git
+	fetch = +refs/*:refs/*
+	mirror = true
+[remote "illuminati"]
+	url = ssh://git@swgilluminati.com:staff/revs-config-mirror.git
+	fetch = +refs/heads/*:refs/remotes/illuminati/*
+[remote "bb"]
+	url = git@bitbucket.org:darthargus/default-configs.git
+	fetch = +refs/heads/*:refs/remotes/default-configs/*
